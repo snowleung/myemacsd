@@ -71,3 +71,8 @@
 ;; (add-hook 'perl-mode-hook 'hs-minor-mode)
 ;; (add-hook 'php-mode-hook 'hs-minor-mode)
 ;; (add-hook 'emacs-lisp-mode-hook 'hs-minor-mode)
+
+;; intro http://ergoemacs.org/emacs/emacs_list_and_set_font.html
+;; font http://www.fontsquirrel.com/fonts/download/dejavu-sans-mono
+(add-to-list 'default-frame-alist
+             '(font . "DejaVu Sans Mono-16"))
