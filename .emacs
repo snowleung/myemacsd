@@ -76,3 +76,13 @@
 ;; font http://www.fontsquirrel.com/fonts/download/dejavu-sans-mono
 (add-to-list 'default-frame-alist
              '(font . "DejaVu Sans Mono-16"))
+
+;; mark down mode config, ref:http://jblevins.org/projects/markdown-mode/
+(add-to-list 'load-path "~/.emacs.d/plugins/markdown-mode")
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+(autoload 'gfm-mode "gfm-mode"
+  "Major mode for editing GitHub Flavored Markdown files" t)
+(add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
