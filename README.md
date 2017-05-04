@@ -1,9 +1,14 @@
 # myemacsd
 my emacs.d
 
+# Dependence
 
-# how to use
+* emacs-24.5
+
+
+# How to use
 
 * clone repo at ~/
 * cp ~/myemacsd/* ./
 * rm -rf ~/myemacsd
+
