@@ -29,7 +29,7 @@
 (add-to-list 'default-frame-alist '(cursor-color . "coral"))
 
 (setq tags-table-list
-      '("/mnt/workspace/gizwits_site/"))
+      '("~/emacs_tags"))
 
 ;; Default windows size 
 (add-to-list 'default-frame-alist '(height . 100))
