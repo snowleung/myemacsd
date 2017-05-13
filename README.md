@@ -11,4 +11,4 @@ my emacs.d
 * clone repo at ~/
 * cp ~/myemacsd/* ./
 * rm -rf ~/myemacsd
-
+* [optional] mkdir ~/emacs_tags
